@@ -1,0 +1,28 @@
+#header {
+    width: 484px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 55px 55px 0 0;
+}
+
+.header-container {
+    /* background-color: variables.$gray-light; */
+    display: flex;
+    justify-content: center;
+}
+
+.logo-header {
+    width: 394px;
+    height: 106px;
+    justify-content: center;
+    position: absolute;
+    z-index: 99;
+    margin-top: 60px;
+}
+
+.wave-header {
+    z-index: 1;
+    justify-content: start;
+}
+    
