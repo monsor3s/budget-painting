@@ -12,3 +12,11 @@
     height: 100vh;
     border-radius: 55px 55px 0 0;
 }
+
+.main-body {
+    height: 850px;
+    background-color: var(--gray-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
