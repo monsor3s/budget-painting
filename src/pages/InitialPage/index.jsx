@@ -1,11 +1,16 @@
 import React from 'react'
 import Header from '../../components/Header';
-import '../../styles/initialPage.css'
+
+import '../../styles/components/header.css';
+import '../../styles/components/initialPage.css';
+
 
 function InitialPage() {
   return (
-    <div className="container">
-      <Header />
+    <div id="container">
+      <section className="main-section">
+        <Header />
+      </section>
     </div>
   )
 }

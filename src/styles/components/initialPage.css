@@ -1,0 +1,14 @@
+#container {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+    height: 100vh;
+}
+
+.main-section {
+    background-color: var(--gray-dark);
+    height: 100vh;
+    border-radius: 55px 55px 0 0;
+}
