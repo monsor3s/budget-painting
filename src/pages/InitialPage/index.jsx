@@ -12,9 +12,9 @@ function InitialPage() {
     <div id="container">
       <section className="main-section">
         <Header />
-        <body className="main-body">
+        <div className="main-body">
           <Button />
-        </body>
+        </div>
       </section>
     </div>
   )

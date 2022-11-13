@@ -63,3 +63,7 @@ button {
     gap: 30px;
     margin-top: 6px;
 }
+
+.main-textarea {
+    margin-top: 6px;
+}

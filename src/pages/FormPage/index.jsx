@@ -26,7 +26,7 @@ function FormPage() {
     <div id="container">
     <section className="main-section">
         <Header />
-        <body className="main-body">
+        <div className="main-body">
             <form className="main-form" onSubmit={handleSubmit}>
                 <section className="wrap-form">
                     <div className="container-input">
@@ -126,10 +126,77 @@ function FormPage() {
                             </div>
                         </div>
                     </div>
+                    <div className="container-input">
+                    <div>
+                            <label className="main-label">Pintura Geral:</label>
+                            <div className="radios">
+                                <input
+                                    type="radio"
+                                    value="Não"
+                                    name="question"
+                                    onChange={handleInputChange}
+                                    checked={formValues.question === "not"}
+                                />
+                                    Não
+                                <input
+                                type="radio"
+                                value="Sim"
+                                name="question"
+                                onChange={handleInputChange}
+                                checked={formValues.question === "yes"}
+                                />
+                                    Sim
+                            </div>
+                    </div>
+                    </div>
+                    <div className="container-input">
+                        <label className="main-label">Pintura Geral:</label>
+                        <textarea 
+                        rows="4" cols="50"
+                        name="partspainted"
+                        className="main-textarea"
+                        onChange={handleInputChange}
+                        value={formValues.generalpainting || ""}
+                        ></textarea>
+                    </div>
+                    <div className="container-input">
+                        <div>
+                            <label className="main-label">Valor Pintura:</label>
+                            <input
+                                className="main-input"
+                                type="text"
+                                name="client"
+                                onChange={handleInputChange}
+                                value={formValues.pricepaint || ""}
+                            />
+                        </div>
+                    </div>
+                    <div className="container-input">
+                        <div>
+                            <label className="main-label">Valor Sinal:</label>
+                            <input
+                                className="main-input"
+                                type="text"
+                                name="client"
+                                onChange={handleInputChange}
+                                value={formValues.pricesignal || ""}
+                            />
+                        </div>
+                    </div>
+                    <div className="container-input">
+                        <label className="main-label">Anotações:</label>
+                        <textarea 
+                        rows="4" cols="50"
+                        name="partspainted"
+                        className="main-textarea"
+                        onChange={handleInputChange}
+                        value={formValues.notes || ""}
+                        ></textarea>
+                    </div>
                     <button type="submit">Gerar</button>
                 </section>
             </form>
-        </body>
+        </div>
     </section>
     </div>
 );
