@@ -23,7 +23,7 @@ function FormPage() {
 
     console.log('*** formValues', formValues);
   return (
-    <div id="container">
+    <div id="container-form">
     <section className="main-section">
         <Header />
         <div className="main-body">
@@ -152,7 +152,6 @@ function FormPage() {
                     <div className="container-input">
                         <label className="main-label">Pintura Geral:</label>
                         <textarea 
-                        rows="4" cols="50"
                         name="partspainted"
                         className="main-textarea"
                         onChange={handleInputChange}
@@ -186,14 +185,13 @@ function FormPage() {
                     <div className="container-input">
                         <label className="main-label">Anotações:</label>
                         <textarea 
-                        rows="4" cols="50"
                         name="partspainted"
                         className="main-textarea"
                         onChange={handleInputChange}
                         value={formValues.notes || ""}
                         ></textarea>
                     </div>
-                    <button type="submit">Gerar</button>
+                    <button className="main-button" type="submit">Gerar</button>
                 </section>
             </form>
         </div>

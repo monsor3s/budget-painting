@@ -1,3 +1,7 @@
+#container-form {
+    height: 1400px;
+}
+
 .main-form {
     max-width: 400px;
     overflow: hidden;
@@ -52,8 +56,9 @@
     padding: 15px;
 }
 
-button {
+.main-button {
     width: 100%;
+    margin-top: 6px;
 }
 
 .radios {

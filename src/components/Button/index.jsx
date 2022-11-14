@@ -2,7 +2,7 @@ import React from 'react'
 
 function Button() {
   return (
-    <button>Orçamento</button>
+    <button className="main-button">Orçamento</button>
   )
 }
 
