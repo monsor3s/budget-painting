@@ -2,12 +2,12 @@
     height: 1400px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
 .main-section {
-    
+    height: 1200px;
+    border-radius: 55px;
 }
 
 .main-form {
