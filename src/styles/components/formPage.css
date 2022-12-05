@@ -10,6 +10,10 @@
     border-radius: 55px;
 }
 
+.main-body {
+    margin-top: 20px;
+}
+
 .main-form {
     max-width: 400px;
     overflow: hidden;

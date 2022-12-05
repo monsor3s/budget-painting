@@ -143,7 +143,7 @@ function FormPage() {
                 </div>
               </div>
               <div className="container-input">
-                <label className="main-label">Pintura Geral:</label>
+                <label className="main-label">Pintura a pintar:</label>
                 <textarea
                   name="partspainted"
                   className="main-textarea"
